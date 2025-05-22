@@ -83,7 +83,7 @@ function AddRestaurant({ updateRestaurants }) {
         />
       </div>
 
-      <button type="submit">Submit</button>
+      <button data-cy="btn-submit" type="submit">Submit</button>
     </form>
   );
 }
